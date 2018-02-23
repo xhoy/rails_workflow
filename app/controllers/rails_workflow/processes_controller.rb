@@ -12,6 +12,7 @@ module RailsWorkflow
 
     def index
       @processes = ProcessDecorator.decorate_collection(undecorated_collection)
+      @processes.define_singleton_method(:limit_value) { object.limit_value }
 
       @errors = Error
                 .unresolved.order(id: :asc)
