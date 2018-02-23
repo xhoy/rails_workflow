@@ -74,7 +74,7 @@ module RailsWorkflow
         collection_scope = collection_scope.by_status(status)
       end
 
-      collection_scope.paginate(page: params[:page]).order(id: :asc)
+      collection_scope.page(params[:page]).order(id: :asc)
     end
 
     def set_process

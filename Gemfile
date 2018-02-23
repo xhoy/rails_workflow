@@ -11,7 +11,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'pg'
 gem 'slim-rails'
-gem 'will_paginate'
+gem 'kaminari'
 
 group :development do
   gem 'sinatra', require: false
