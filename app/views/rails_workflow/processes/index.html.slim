@@ -56,7 +56,7 @@ ol.breadcrumb.alert-warning
                     = link_to child.title, child
                     span.label<> class=(child.status[:class])
                       = child.status[:text]
-        = will_paginate @processes
+        = paginate @processes
 
   .col-sm-4
 

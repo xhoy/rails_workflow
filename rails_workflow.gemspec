@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rails', '>= 4.1.0'
   s.add_runtime_dependency 'bootstrap-rails-engine'
   s.add_runtime_dependency 'slim-rails'
-  s.add_runtime_dependency 'will_paginate'
+  s.add_runtime_dependency 'kaminari'
   s.add_runtime_dependency 'draper'
   s.add_runtime_dependency 'sidekiq'
   s.add_runtime_dependency 'guid'
